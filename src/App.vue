@@ -27,7 +27,7 @@
               data-aos-duration="1000"
             >
               I began started full stack development career 3 years ago. I’ve spent most of my
-              waking hours for the last two years in development, programming and operating Frontend
+              working hours for the last three years in development, programming and operating Frontend
               and backend. One of my specialties is taking an idea from scratch and creating a
               full-fledged platform. I go beyond to produce sites with a unique.
             </h1>
