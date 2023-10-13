@@ -11,7 +11,7 @@
       <a
         class="bg-gray-800 text-white font-semibold text-base px-5 py-3 rounded-full cursor-pointer hover:bg-gray-900 transition-all"
       >
-        Hire me know
+        Hire me now
       </a>
     </div>
     <div
