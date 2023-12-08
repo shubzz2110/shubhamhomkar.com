@@ -13,7 +13,7 @@
       >
       <button class="nav-links">CONTACT</button>
       <button
-        class="text-white font-extrabold text-lg px-7 py-1.5 bg-gray-900 rounded-xl tracking-wide hover:bg-primary hover:text-white transition duration-500 ease-in-out"
+        class="text-white font-extrabold text-lg px-7 pb-1.5 pt-2.5 bg-gray-900 rounded-xl tracking-wide hover:bg-primary hover:text-white transition duration-500 ease-in-out"
       >
         HIRE ME
       </button>

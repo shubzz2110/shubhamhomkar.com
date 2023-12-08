@@ -10,7 +10,7 @@
           <Navbar />
         </header>
         <main
-          class="flex items-center justify-between w-full h-screen lg:min-w-[95%] lg:max-w-[95%] max-w-[90%] min-w-[90%] mx-auto relative"
+          class="flex items-center justify-between w-full h-screen lg:min-w-[95%] lg:max-w-[95%] max-w-[90%] min-w-[90%] mx-auto relative overflow-hidden select-none"
         >
           <div class="flex flex-col items-center lg:items-start lg:w-1/2 h-max">
             <h1
@@ -44,6 +44,11 @@
                 <i class="bi bi-download mr-2.5"></i>
                 Resume
               </a>
+            </div>
+          </div>
+          <div class="w-1/2 hidden lg:flex items-center justify-center h-full">
+            <div class="rounded-full bg-red-400 w-[32em] h-[32em]">
+              <img src="./assets/images/shubham_homkar.png" style="" draggable="false" class="dropping-shadow" alt="">
             </div>
           </div>
         </main>
@@ -117,7 +122,7 @@ export default {
       this.loading = false
     }, 2000)
   },
-  beforeDestroy() {
+  beforeUnmount() {
     window.removeEventListener('scroll', this.handleScroll)
   },
   methods: {
@@ -154,5 +159,8 @@ export default {
   height: 2px;
   font-size: 0px;
   line-height: 0px;
+}
+.dropping-shadow {
+  filter: drop-shadow(2px 4px 6px rgba(0, 0, 0, 0.597));
 }
 </style>
